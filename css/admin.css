@@ -1,0 +1,24 @@
+form[name="wpcustomize_customize"] input[type="text"],
+form[name="wpcustomize_customize"] textarea {
+    width: 100%;
+    padding: 4px 8px;
+}
+@media (min-width: 783px) {
+    form[name="wpcustomize_customize"] input.upload_button {
+        float: right;
+        clear: none;
+        position: relative;
+        right: 0;
+        top: -2.25em;
+        height: 27px;
+    }
+    form[name="wpcustomize_customize"] select.selectbox {
+        width: 25%;
+    }
+}
+form[name="wpcustomize_customize"] input.smallinput[type="text"] {
+    width: 50px;
+}
+.chosen-container {
+    width: 150px;
+}
